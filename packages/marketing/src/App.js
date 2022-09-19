@@ -2,17 +2,16 @@ import React from "react";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import { StylesProvider } from "@material-ui/core/styles";
 
-import Landing from "../components/Landing";
-import Pricing from "../components/Pricing";
+import { Button } from "@material-ui/core";
 
 export default () => {
   return (
     <div>
+      <h1>Hello from microfrontend 2</h1>
       <StylesProvider>
         <BrowserRouter>
           <Switch>
-            <Route exact path="/pricing" component={Pricing} />
-            <Route exact path="/" component={Landing} />
+            <Route exact path="/anagrafica" component={Button} />
           </Switch>
         </BrowserRouter>
       </StylesProvider>
