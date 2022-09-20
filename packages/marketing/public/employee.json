@@ -1,0 +1,37 @@
+[
+    {
+        "genere": "Maschio",
+        "dataNascita": "1975-10-20T00:00:00",
+        "codiceComuneNascita": "D773",
+        "dataAssunzione": "2020-04-01T00:00:00",
+        "dataCessazione": "0001-01-01T00:00:00",
+        "codiceFrazionarioAssegnazione": "55YA5",
+        "inquadramento": {
+            "codice": "1",
+            "descrizione": "Tempo Indeterminato"
+        },
+        "flgRespUfficio": "F",
+        "tipologiaOrario": "FT",
+        "percentualeLavoro": 100.00,
+        "codiceMansione": "04321",
+        "societa": "Poste Italiane SpA",
+        "indirizzo": "VIA GIUSEPPE CHIOVENDA 20",
+        "comune": "ROMA",
+        "provincia": "RM",
+        "cap": "00173",
+        "lavoratorePartTime": false,
+        "id": "0000000000000080663000455875",
+        "cognome": "PADOAN",
+        "nome": "GIANLUCA",
+        "matricola": "00455875",
+        "userName": "padoang1@posteitaliane.it",
+        "account": {
+            "dominio": "RETE",
+            "userID": "PADOANG1",
+            "userName": "padoang1@posteitaliane.it",
+            "posteIt": "gianluca.padoan"
+        },
+        "codiceFiscale": "PDNGLC75R20D773B",
+        "email": "gianluca.padoan@posteitaliane.it"
+    }
+]

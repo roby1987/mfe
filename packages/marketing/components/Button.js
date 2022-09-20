@@ -1,15 +1,17 @@
-/* Write a button component */ 
 
-import React from 'react'; 
+// /* Write a button component */ 
+
+// import React from 'react'; 
 
 const Button = (props) => { 
   
   return ( 
     
-    <button>{props.text}</button> 
+    <button className="AddButton" onClick={props.onClick}>{props.text}</button> 
     
   ); 
   
 } 
 
-export {Button};
+export default {Button};
+

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./App";
 
 //Mount function to start up the app
-const mount = (el) => {
+const anagrafica = (el) => {
   ReactDOM.render(<App />, el);
 };
 //If we are in development and in isolation,
@@ -12,9 +12,16 @@ if (process.env.NODE_ENV === "development") {
   const devRoot = document.querySelector("#_marketing-dev-root");
 
   if (devRoot) {
-    mount(devRoot);
+    anagrafica(devRoot);
   }
 }
 //We are running through container
 //and we should export the mount function
-export { mount };
+export { anagrafica };
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById("_marketing-dev-root")
+// );
