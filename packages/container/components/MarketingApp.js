@@ -1,4 +1,4 @@
-import { React,  useRef, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import { mount } from "marketing/MarketingApp";
 
 export default () => {
@@ -9,3 +9,4 @@ export default () => {
   });
   return <div ref={ref} />;
 };
+
